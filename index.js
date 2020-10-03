@@ -13,7 +13,7 @@ function currentLine(katzDeliLine){
   else  {
     var solution = 'The line is currently:'
     for (var i=0; i < katzDeliLine.length; i++){
-      solution += `katzDeliLine[1]`
+      solution += katzDeliLine[1]
     }
     return solution
 }
