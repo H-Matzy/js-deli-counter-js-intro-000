@@ -9,12 +9,12 @@ function nowServing(katzDeliLine){
   return solution
 }
 function currentLine(katzDeliLine){
-  if (katzDeliLine.length === 0) return "The line is currently empty."
+  if (katzDeliLine.length === 0) {return "The line is currently empty."}
   else  {
     var solution = 'The line is currently:'
     for (var i==0; i < katzDeliLine.length; i++){
       solution += katzDeliLine[]
     }
-    return {solution}
+    return solution
 }
 }
