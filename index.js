@@ -12,7 +12,7 @@ function currentLine(katzDeliLine){
   if (katzDeliLine.length === 0) { return "The line is currently empty." }
   else  {
     var solution = 'The line is currently:'
-    for (var i==0; i < katzDeliLine.length; i++){
+    for (var i=0; i < katzDeliLine.length; i++){
       solution += "katzDeliLine[]"
     }
     return solution
